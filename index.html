@@ -43,6 +43,7 @@ body {font-family: "Raleway", Arial, sans-serif}
     <div id="oplevelsestag" class="w3-bar-item" style="cursor: pointer;" onclick="toggleTagButton(this)">Oplevelser</div>
     <div id="zentag" class="w3-bar-item" style="cursor: pointer;" onclick="toggleTagButton(this)">Fritid</div>
     <div id="wheel" class="w3-bar-item" style="cursor: pointer;" onclick="toggleWheelButton(this)">Hvad nu?</div>
+    <div id="cmm2tag" class="w3-bar-item" style="cursor: pointer;" onclick="toggleTagButton(this)">CMM2</div>
     <div id="jul2023" class="w3-bar-item" style="cursor: pointer;" onclick="toggleTagButton(this)">Jul</div>
     <a href="#about" class="w3-button w3-bar-item w3-right">Om mig</a>
   </div>
@@ -53,17 +54,18 @@ body {font-family: "Raleway", Arial, sans-serif}
 
   <!-- Photo Grid -->
   <div id="id00" style="display: none;">
+    <img class="tag-item" cmm2tag="1" src="/images/id250915/thumbnail-id250915.png" style="width:100%" onclick="document.getElementById('id250915').style.display='block'">
     <a href="./images/godot-platform-game/index.html" target="_blank"  class="tag-item" newstag="1" zentag="1"><img src="/images/godot-platform-game/thumbnail-godot.png" style="width:100%"></a>
     <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250830/thumbnail-250830.png" style="width:100%" onclick="document.getElementById('id250830').style.display='block'">
     <a href="./images/godot-memory-game/index.html" target="_blank"  class="tag-item" newstag="1" zentag="1"><img src="/images/godot-memory-game/thumbnail-godot-memory-game.png" style="width:100%"></a>
     <a href="./images/aaahtml/index.html" target="_blank"  class="tag-item" newstag="1" zentag="1"><img src="/images/aaahtml/thumbnail-aaahtml.png" style="width:100%"></a>
     <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250803/thumbnail-250803.png" style="width:100%" onclick="document.getElementById('id250803').style.display='block'">
-    <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250727/thumbnail-250727.jpeg" style="width:100%" onclick="document.getElementById('id250727').style.display='block'">
+    <img class="tag-item" newstag="1" zentag="1" src="/images/id250727/thumbnail-250727.jpeg" style="width:100%" onclick="document.getElementById('id250727').style.display='block'">
     <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250719/thumbnail-250719.png" style="width:100%" onclick="document.getElementById('id250719').style.display='block'">
     <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250717/thumbnail-250717.png" style="width:100%" onclick="document.getElementById('id250717').style.display='block'">
     <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250716/thumbnail-250716.png" style="width:100%" onclick="document.getElementById('id250716').style.display='block'">
     <img class="tag-item" newstag="1" oplevelsestag="1" src="/images/id250713/thumbnail-250713.png" style="width:100%" onclick="document.getElementById('id250713').style.display='block'">
-    <img class="tag-item" oplevelsestag="1" src="/images/id250706/thumbnail-250706.png" style="width:100%" onclick="document.getElementById('id250706').style.display='block'">
+    <img class="tag-item" zentag="1" src="/images/id250706/thumbnail-250706.png" style="width:100%" onclick="document.getElementById('id250706').style.display='block'">
     <a href="./images/id2427/id2427.html" target="_blank"  class="tag-item" zentag="1"><img src="/images/id2427/thumbnail-2427.png" style="width:100%"></a>
     <img class="tag-item" zentag="1" src="/images/id2426/thumbnail.2426.png" style="width:100%" onclick="document.getElementById('id2426').style.display='block'">
     <img class="tag-item" oplevelsestag="1" src="/images/id2425/thumbnail-2425.png" style="width:100%" onclick="document.getElementById('id2425').style.display='block'">
@@ -5278,6 +5280,28 @@ Hvis et lokomotiv mister strømmen, husker computeren porten, så lokomotivet bl
         <h1 onclick="closeModal('id250830','id250830-video')">Luk</h1>
         <img src="./images/id250830/p09.jpg" width="100%">
         <h1 onclick="closeModal('id250830','id250830-video')">Luk</h1>
+      </div>
+    </div>
+      <footer>
+        <br>
+      </footer>
+  </div>
+</div>
+
+
+<div id="id250915" class="w3-modal">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container w3-gray w3-text-white"> 
+<h2 onclick="closeModal('id250915','id250915-video')">Colour Maximite 2 Manuals</h2>
+    </header>
+    <div class="w3-container">
+      <div class="w3-row">
+        <h1><a href="./images/id250915/Colour_Maximite_2_User_Manual.pdf" target="_blank">Colour_Maximite_2_User_Manual (PDF)</a></h1>
+        <h1><a href="./images/id250915/Graphics Programming on the CMM2-v3d.pdf" target="_blank">Graphics_Programming_on_the_CMM2-v3d (PDF)</a></h1>
+        <h1><a href="./images/id250915/GUI Controls and Programming.pdf" target="_blank">GUI Controls and Programming (PDF)</a></h1>
+        <h1><a href="./images/id250915/Programming_with_the_Colour_Maximite_2.pdf" target="_blank">Programming_with_the_Colour_Maximite_2 (PDF)</a></h1>
+        <h1><a href="./images/id250915/The CMM2 3D engine.pdf" target="_blank">The CMM2 3D engine (PDF)</a></h1>
+        <h1 onclick="closeModal('id250915','id250915-video')">Luk</h1>
       </div>
     </div>
       <footer>
